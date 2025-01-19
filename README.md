@@ -36,19 +36,6 @@
         └── batch_init.sql
 
 ```
----
-
-```yaml
-spring:
-  datasource:
-    url: jdbc:mysql://localhost:3306/batch
-    username: your_username
-    password: your_password
-    driver-class-name: com.mysql.cj.jdbc.Driver
-  batch:
-    jdbc:
-      initialize-schema: always
-```
 
 ---
 
