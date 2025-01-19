@@ -1,0 +1,16 @@
+spring:
+  application:
+    name: batch-service
+  datasource:
+    url: jdbc:mysql://localhost:3307/batch
+    username: root
+    password: qwer1234
+    driver-class-name: com.mysql.cj.jdbc.Driver
+  jpa:
+    hibernate:
+      ddl-auto: create
+  batch:
+    jdbc:
+      initialize-schema: always
+    job:
+      enabled: false # ?????? ?? ? Job ?? ??
